@@ -5,7 +5,7 @@
 import matplotlib.pyplot as plt #import modules
 import matplotlib.patches as mpatches
 import numpy as np
-get_ipython().magic(u'matplotlib inline') # set to inline for ipython
+#get_ipython().magic(u'matplotlib inline') # set to inline for ipython
 
 
 # In[2]:
@@ -45,7 +45,7 @@ plt.plot(weight,actWater,"o") # plot scatter of water vs weight (ml/g)
 plt.plot(weight[:len(actalc)],actalc,"o") #plot scatter of actcalc
 plt.xlabel("Mass (g)") #add labels
 plt.ylabel("Displacement (mL)") #add labels
-
+plt.show() #show figure
 
 # In[5]:
 
